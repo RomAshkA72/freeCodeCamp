@@ -8,10 +8,69 @@
     <main>
     <h1>Собаки или Кошки</h1>
     <h3>Содержание</h3>
+    
     <ol>
-      <li>Собаки</li>
-      <li>Кошки</li>
+      <li><a href="#cat">Кошки</a></li>
+      <li><a href="#dog">Собаки</a></li>
+      <li><a href="#opr">Опрос</a></li>
     </ol>
+
+    <h2 id="cat">Кошки</h2>
+    <a href="#"><img src="relaxing-cat.jpg" aly="Cat"></a>
+
+<div>
+    <p>Кошки любят:</p>
+    <ul>
+      <li>Рыбу</li>
+      <li>Мяту</li>
+      <li>Мясо</li>
+    </ul>
+
+    <p>Кошки не любят:</p>
+    <ul>
+      <li>Сладкое</li>
+      <li>Огурцы</li>
+      <li>Бананы</li>
+    </ul>
+</div>
+
+    <h2 id="dog">Собаки</h2>
+    <img src="Screenshot_1.png" width="300" height="300" alt="Dog">
+
+<div>
+    <p>Собаки любят:</p>
+    <ul>
+      <li>Бананы</li>
+      <li>Косточки</li>
+      <li>Мясо</li>
+    </ul>
+
+    <p>Собаки не любят:</p>
+    <ul>
+      <li>Виноград</li>
+      <li>Рыбу</li>
+      <li>Помидоры</li>
+    </ul>
+  </div>
+
+    <h3 id="opr">Опрос</h3>
+<div>
+    <form action="file:///C:/freeCodeCamp/Pr1_HTML/HTML_pr1.html">
+      <p>Кто вам нравится больше?</p>
+      <label for="cat"><input id="cat" type="radio" name="cat-or-dog" value="cat" checked>Кошки</label><br>
+      <label for="dog"><input id="dog" type="radio" name="cat-or-dog" value="dog" checked>Собаки</label><br>
+
+      <p>Что из перечисленного любят собаки?</p>
+      <label for="benana"><input id="benana" type="checkbox" name="doglove" value="benana" checked>Бананы</label><br>
+      <label for="fish"><input id="fish" type="checkbox" name="doglove" value="fish" checked>Рыбу</label><br>
+      <label for="meat"><input id="meat" type="checkbox" name="doglove" value="meat" checked>Мясо</label><br>
+
+      <p>Почему вы любите кошек или собак?</p>
+      <input type="text" placeholder="напишите что-нибудь" required>
+      <button type="submit" >Отправить</button>
+    </form>
+</div>
+
     </main>
   </body>
 </html>
