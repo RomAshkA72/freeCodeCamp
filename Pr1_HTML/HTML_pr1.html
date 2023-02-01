@@ -6,8 +6,44 @@
   </head>
   <body>
     <main>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    
+    <style>
+      .green {
+        color: green;
+      }
+
+      p {
+        font-size: 18px;
+        font-family: monospace;
+        color: green;
+      }
+
+      h2 {
+        font-family: Oswald, monospace;
+      }
+
+      .cat-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 30%;
+      }
+
+      .border-img {
+        border-color: blue;
+        border-width: 10px;
+        border-style: solid;
+      }
+
+      .background {
+        background-color: silver;
+      }
+
+    </style>
+
     <h1>Собаки или Кошки</h1>
-    <h3>Содержание</h3>
+    <h3 class="green">Содержание</h3>
     
     <ol>
       <li><a href="#cat">Кошки</a></li>
@@ -16,17 +52,17 @@
     </ol>
 
     <h2 id="cat">Кошки</h2>
-    <a href="#"><img src="relaxing-cat.jpg" aly="Cat"></a>
+    <a href="#"><img src="relaxing-cat.jpg" aly="Cat" class="cat-img border-img"></a>
 
-<div>
-    <p>Кошки любят:</p>
+<div class="background">
+    <p class="green">Кошки любят:</p>
     <ul>
       <li>Рыбу</li>
       <li>Мяту</li>
       <li>Мясо</li>
     </ul>
 
-    <p>Кошки не любят:</p>
+    <p class="green">Кошки не любят:</p>
     <ul>
       <li>Сладкое</li>
       <li>Огурцы</li>
