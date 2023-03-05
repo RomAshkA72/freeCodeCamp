@@ -1,0 +1,98 @@
+
+/* MAIN */
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.est{
+    font-style: italic;
+}
+
+body{
+    background-image: url(Fon.jpg); 
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu{
+    width: 80%;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.flavor{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+.dessert{
+    text-align: left;
+    width: 75%;
+}
+
+hr{
+    height: 2px;
+    background-color: seagreen;
+    border-color: seagreen;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+}
+
+.address{
+    margin-bottom: 5px;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: green;
+}
